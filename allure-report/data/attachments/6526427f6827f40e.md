@@ -1,0 +1,95 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "Login to your account" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - textbox "Email Address" [ref=e44]: sirishapw@test.com
+        - textbox "Password" [ref=e45]: testing@12
+        - paragraph [ref=e46]: Your email or password is incorrect!
+        - button "Login" [ref=e47] [cursor=pointer]
+    - heading "OR" [level=2] [ref=e49]
+    - generic [ref=e51]:
+      - heading "New User Signup!" [level=2] [ref=e52]
+      - generic [ref=e53]:
+        - textbox "Name" [ref=e54]
+        - textbox "Email Address" [ref=e55]
+        - button "Signup" [ref=e56] [cursor=pointer]
+  - contentinfo [ref=e57]:
+    - generic [ref=e62]:
+      - heading "Subscription" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - textbox "Your email address" [ref=e65]
+        - button "" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 
+        - paragraph [ref=e68]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e72]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e73]:
+    - iframe [ref=e76]:
+      - iframe [ref=f33e1]:
+        - generic [ref=f34e1]:
+          - generic [ref=f34e2]:
+            - generic:
+              - img [ref=f34e6] [cursor=pointer]
+              - button [ref=f34e8] [cursor=pointer]:
+                - img [ref=f34e9]
+          - insertion [ref=f34e16]:
+            - generic [ref=f34e17]:
+              - link "Click Here" [ref=f34e18] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CeQjYxBZ6aeLxLLjartoP_qrToAm9h4bzhAGHoqWr3RSMy5yhkEcQASD9tJ6VAWDlAqABi-KKoAHIAQmoAwHIA5sEqgSAAk_QXj86hY3zh9QQAebiY3VxAmR6R7jxjWS7qn2G-Yr3Jq081uVammF62A8Ik6KoG83_AnTKrZevR-ffU0AMgM7BJlbta-ccMeI6eUnhzU-0C2BKvLBwXJ_2rb1bST2-9LfDSHnVmDlULlT9JA85we4FhMgljIK5SALv2WvDoWZipBbeliIM6efeZGoGTS8Jt_yoQ8_g7TPsKmZZEawRp3po8qAm1r1xQKwCZ8sb5iYu3Ubvy3qcvNmZmuhxCyuTDtty4moeVNG51V1HuvLhD_Auq1YcqupEMD5FVdu0FadmtoW4zcQoVKIU3CCKTXCztl66rEs62m5E9eq6Ged6KAHABKvGlN2aBeAEA4gFiMq-1VOQBgGgBk2AB92d9d8CqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY4qyt77KukgOACgGYCwHICwGADAGiDAgqBgoE1tqxAqoNAklO6g0TCMPmre-yrpIDFTitSwUdftUUlPANAYgOCbATg9WxINATANgTDdgUAdAVAcoWAgoA-BYBgBcBshcCGAKyGAUYTSIBANAZAdgZAQ&ae=1&num=1&cid=CAQSrAEA56J1eWrgu2svDzFXdfj2Yt1-dfnHD2CHoRxVbXrOlWLVj3_xP3n2rTJBcKM_vOhfmXJcMQzBEg3LlwsaLLuFfWJsWgm1BDhtf1ZgzEtktSto887aBazagzLC0-lXlVohYYWaL0ljhTv9T-J5bqcuVKsDWG_aqgZji3yFi3VxxPIWmA64KNvg8572iMr9gNSVDzctgY2Jx9ohkHNH0xl9Zgt1oj-DuSNkqhQLGAE&sig=AOD64_2xzywkqgr8wv8jPwGVzfxoF1achg&client=ca-pub-1677597403311019&dbm_c=AKAmf-Bs6HbNLCWqO9YHFfnXqMH7OPw5sO_ggJ0B01BMMIx2ZpG9AnuMYzhyIibjUnwTRxTJZG40WEBIj-HY2w7gw7p7bmyLZQxpXtfJanHW5lHWLT5S3atOJsngGkpgOFxqwGz4WanNQdt-sljyp1Arqnxs76ctR8pqygQ5f207dkn3rMwGlSciZDTcfbDC6dW-WF-wBT6hcskcj3hJo1Rtx2kRlMxFGXPct1uEyVSCgF7W5Q828RXZR4WCZ1pDwln10IeT52SMeydPmYkgKy6pHaHQpD9XPw&cry=1&dbm_d=AKAmf-AeUWKEZty3wsEGGYI0MKaFudLuBY-08PEJ8nzrI1frTnlSolsQLhy8eXhYfAGfUBH5VK-Z7HpUJJgwy75jDevZOQ3P2hUVNNLpuzD42ES4AkMWA6w_5scIhuhHgu0v6aPMloXiOFIoTKItFxt2_PiX5QCEwVNgtVpOSG2Gy-AG8eBOCQwZaW8rx_i--Lry7SPZPsgsYesZ_C5Tnq1R0QBTwV0E9Q6mvc4lowDCZOwtst9BkIUVo28nJTl7oPrAxoOMfW5FKp4bIKjx_AbOgJ1AZzJuuolIsTKUV_sk1on45schPpUdLy2vCTThByyMm3EuCh_TH0cTaEQ1IzDl2KmTYMwJURvdiC0PPW4wyr3qjcEIiz6cP0PRC_mHoY2MkbiWBiQZuMC64IuU-8xNFULSKFxoR0h8gVnj0iYPmX_g5G6Fi-M4WwcC3WU4qzTE8jeOUjFNY09keOKWfnB-Ba4IFFgoFdxZl8N8S_KgwbX3vfr6jvyA-Ejxzc9khAMa6ktqm5ERfXpGR7L2TVIalW_qsvif7tAqSZwJOKWnNZf9KZmDFn7VKf8eJ41qzyS_kjOi-nUqUQJhbCGQGKp7KBfaY6JM7b1WJY5kCxm9XyFTQ3thA_6TqYVLHNSgfyj5vhafYuwLUuxsX3ndAx1E6vTul9iR8yQ7CkF1BEJWXvB7be3GEa17Xw6Ri8P3rc8bTEO6a_ux&adurl=https://servedby.flashtalking.com/click/7/281072;9880887;5573354;210;0/?us_privacy=!!US_PRIVACY!&ft_partnerimpid=ABAjH0jnWLcvwdixL4IW3lZ41pfm&ft_impID=4592945A-59E9-16D5-677D-2D8AAC58376E&ft_section=22459426056&g=6602B1686AE149&random=567680.0268559592&ft_width=728&ft_height=90&url=https://www.adobe.com/in/creativecloud.html?sdid=DHWC14DQ&mv=display&mv2=display
+                - img "Click Here" [ref=f34e19]
+              - link "AdChoices arrow" [ref=f34e21] [cursor=pointer]:
+                - /url: https://www.flashtalking.com/consumer-privacy
+                - img "AdChoices arrow" [ref=f34e22]
+```

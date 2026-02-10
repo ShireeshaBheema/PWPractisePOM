@@ -1,0 +1,26 @@
+[
+    {
+        "user_id": "1",
+        "email": "sirishapw@test.com",
+        "password": "testing@123",
+        "valid": true
+    },
+    {
+        "user_id": "2",
+        "email": "sirishapw@test.com",
+        "password": "testing@12",
+        "valid": false
+    },
+    {
+        "user_id": "3",
+        "email": "sirishapw1@test.com",
+        "password": "testing@123",
+        "valid": false
+    },
+    {
+        "user_id": "4",
+        "email": "sirishapw12@test.com",
+        "password": "testing@1234",
+        "valid": false
+    }
+]

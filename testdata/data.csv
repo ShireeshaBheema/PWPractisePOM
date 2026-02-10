@@ -1,0 +1,5 @@
+user_id,email,password,valid
+1,sirishapw@test.com,testing@123,true
+2,sirishapw@test.com,testing@12,false
+3,sirishapw1@test.com,testing@123,false
+4,sirishapw12@test.com,testing@1234,false
