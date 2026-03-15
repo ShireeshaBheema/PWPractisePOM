@@ -1,4 +1,0 @@
-Error clicking element-Clicking on Product Page Link: Error: locator.click: Target page, context or browser has been closed
-Call log:
-  - waiting for getByRole('link', { name: 'Products' })
-

@@ -1,3 +1,0 @@
-Randomly selected product: Frozen Tops For Kids
-Price of the selected product: Rs. 278
-Randomly selected product at index 10 and navigated to its detail page

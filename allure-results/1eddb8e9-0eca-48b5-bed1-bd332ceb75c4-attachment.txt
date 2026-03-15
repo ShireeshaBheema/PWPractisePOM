@@ -1,4 +1,0 @@
-Error clicking element-undefined: Error: locator.click: Test timeout of 30000ms exceeded.
-Call log:
-  - waiting for getByRole('link', { name: 'KIDS', exact: true })
-

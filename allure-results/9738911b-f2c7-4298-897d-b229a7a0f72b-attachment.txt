@@ -1,3 +1,0 @@
-Randomly selected product: Madame Top For Women
-Price of the selected product: Rs. 1000
-Randomly selected product at index 6 and navigated to its detail page

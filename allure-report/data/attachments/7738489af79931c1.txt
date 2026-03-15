@@ -1,7 +1,0 @@
-Error clicking element-undefined: Error: locator.click: Error: strict mode violation: getByRole('link', { name: 'Men' }) resolved to 2 elements:
-    1) <a href="#Women" data-toggle="collapse" data-parent="#accordian">…</a> aka getByRole('link', { name: ' Women' })
-    2) <a href="#Men" data-toggle="collapse" data-parent="#accordian">…</a> aka getByRole('link', { name: ' Men' })
-
-Call log:
-  - waiting for getByRole('link', { name: 'Men' })
-

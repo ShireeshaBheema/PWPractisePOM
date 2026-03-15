@@ -1,1 +1,0 @@
-Randomly selected product at index 7 and clicked Add to Cart

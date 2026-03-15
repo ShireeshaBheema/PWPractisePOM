@@ -1,3 +1,0 @@
-Randomly selected product: Cotton Silk Hand Block Print Saree
-Price of the selected product: Rs. 3000
-Randomly selected product at index 29 and navigated to its detail page

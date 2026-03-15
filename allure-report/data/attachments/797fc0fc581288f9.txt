@@ -1,3 +1,0 @@
-Randomly selected product: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
-Price of the selected product: Rs. 1100
-Randomly selected product at index 19 and navigated to its detail page

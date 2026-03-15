@@ -1,4 +1,0 @@
-Error clicking element-Clicking on Product Page Link: Error: locator.click: Test timeout of 30000ms exceeded.
-Call log:
-  - waiting for getByRole('link', { name: 'Products' })
-

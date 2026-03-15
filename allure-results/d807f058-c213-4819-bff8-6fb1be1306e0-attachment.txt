@@ -1,3 +1,0 @@
-Randomly selected product: Sleeveless Dress
-Price of the selected product: Rs. 1000
-Randomly selected product at index 2 and navigated to its detail page

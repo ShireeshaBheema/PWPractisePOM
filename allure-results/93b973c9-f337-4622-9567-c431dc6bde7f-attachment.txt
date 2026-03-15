@@ -1,3 +1,0 @@
-Randomly selected product: Rust Red Linen Saree
-Price of the selected product: Rs. 3500
-Randomly selected product at index 30 and navigated to its detail page

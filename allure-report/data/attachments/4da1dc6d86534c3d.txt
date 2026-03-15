@@ -1,3 +1,0 @@
-Randomly selected product: Grunt Blue Slim Fit Jeans
-Price of the selected product: Rs. 1400
-Randomly selected product at index 27 and navigated to its detail page
