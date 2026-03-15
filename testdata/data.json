@@ -3,24 +3,28 @@
         "user_id": "1",
         "email": "sirishapw@test.com",
         "password": "testing@123",
-        "valid": true
+        "valid": true,
+        "name": "Sirishapw"
     },
     {
         "user_id": "2",
         "email": "sirishapw@test.com",
         "password": "testing@12",
-        "valid": false
+        "valid": false,
+        "name": "Sirishapw"
     },
     {
         "user_id": "3",
         "email": "sirishapw1@test.com",
         "password": "testing@123",
-        "valid": false
+        "valid": false,
+        "name": "Sirishapw1"
     },
     {
         "user_id": "4",
         "email": "sirishapw12@test.com",
         "password": "testing@1234",
-        "valid": false
+        "valid": false,
+        "name": "Sirishapw12"
     }
 ]

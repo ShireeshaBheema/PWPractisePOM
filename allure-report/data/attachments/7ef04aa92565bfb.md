@@ -1,0 +1,131 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23] [cursor=pointer]:
+            - /url: /logout
+            - generic [ref=e24]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26] [cursor=pointer]:
+            - /url: /delete_account
+            - generic [ref=e27]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e30]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e33]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e39]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as Test
+  - generic [ref=e44]:
+    - img "Website for practice" [ref=e45]
+    - textbox "Search Product" [ref=e46]
+    - button "" [ref=e47] [cursor=pointer]:
+      - generic [ref=e48]: 
+  - generic [ref=e51]:
+    - generic [ref=e53]:
+      - heading "Category" [level=2] [ref=e54]
+      - generic [ref=e55]:
+        - heading " Women" [level=4] [ref=e58]:
+          - link " Women" [ref=e59] [cursor=pointer]:
+            - /url: "#Women"
+            - generic [ref=e61]: 
+            - text: Women
+        - heading " Men" [level=4] [ref=e64]:
+          - link " Men" [ref=e65] [cursor=pointer]:
+            - /url: "#Men"
+            - generic [ref=e67]: 
+            - text: Men
+        - heading " Kids" [level=4] [ref=e70]:
+          - link " Kids" [ref=e71] [cursor=pointer]:
+            - /url: "#Kids"
+            - generic [ref=e73]: 
+            - text: Kids
+      - generic [ref=e74]:
+        - heading "Brands" [level=2] [ref=e75]
+        - list [ref=e77]:
+          - listitem [ref=e78]:
+            - link "(6) Polo" [ref=e79] [cursor=pointer]:
+              - /url: /brand_products/Polo
+              - generic [ref=e80]: (6)
+              - text: Polo
+          - listitem [ref=e81]:
+            - link "(5) H&M" [ref=e82] [cursor=pointer]:
+              - /url: /brand_products/H&M
+              - generic [ref=e83]: (5)
+              - text: H&M
+          - listitem [ref=e84]:
+            - link "(5) Madame" [ref=e85] [cursor=pointer]:
+              - /url: /brand_products/Madame
+              - generic [ref=e86]: (5)
+              - text: Madame
+          - listitem [ref=e87]:
+            - link "(3) Mast & Harbour" [ref=e88] [cursor=pointer]:
+              - /url: /brand_products/Mast & Harbour
+              - generic [ref=e89]: (3)
+              - text: Mast & Harbour
+          - listitem [ref=e90]:
+            - link "(4) Babyhug" [ref=e91] [cursor=pointer]:
+              - /url: /brand_products/Babyhug
+              - generic [ref=e92]: (4)
+              - text: Babyhug
+          - listitem [ref=e93]:
+            - link "(3) Allen Solly Junior" [ref=e94] [cursor=pointer]:
+              - /url: /brand_products/Allen Solly Junior
+              - generic [ref=e95]: (3)
+              - text: Allen Solly Junior
+          - listitem [ref=e96]:
+            - link "(3) Kookie Kids" [ref=e97] [cursor=pointer]:
+              - /url: /brand_products/Kookie Kids
+              - generic [ref=e98]: (3)
+              - text: Kookie Kids
+          - listitem [ref=e99]:
+            - link "(5) Biba" [ref=e100] [cursor=pointer]:
+              - /url: /brand_products/Biba
+              - generic [ref=e101]: (5)
+              - text: Biba
+    - generic [ref=e103]:
+      - heading "All Products" [level=2] [ref=e104]
+      - generic [ref=e108]:
+        - img "ecommerce website products"
+```

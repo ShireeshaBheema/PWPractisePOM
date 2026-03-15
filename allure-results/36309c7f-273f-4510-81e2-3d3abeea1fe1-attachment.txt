@@ -1,0 +1,16 @@
+Error clicking element-undefined: Error: locator.click: Error: strict mode violation: getByRole('link') resolved to 31 elements:
+    1) <a href="/">…</a> aka getByRole('link', { name: 'Website for automation' })
+    2) <a href="/">…</a> aka getByRole('link', { name: ' Home' })
+    3) <a href="/products">…</a> aka getByRole('link', { name: ' Products' })
+    4) <a href="/view_cart">…</a> aka getByRole('link', { name: ' Cart' })
+    5) <a href="/logout">…</a> aka getByRole('link', { name: ' Logout' })
+    6) <a href="/delete_account">…</a> aka getByRole('link', { name: ' Delete Account' })
+    7) <a href="/test_cases">…</a> aka getByRole('link', { name: ' Test Cases' })
+    8) <a href="/api_list">…</a> aka getByRole('link', { name: ' API Testing' })
+    9) <a href="https://www.youtube.com/c/AutomationExercise">…</a> aka getByRole('link', { name: ' Video Tutorials' })
+    10) <a href="/contact_us">…</a> aka getByRole('link', { name: ' Contact us' })
+    ...
+
+Call log:
+  - waiting for getByRole('link')
+

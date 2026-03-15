@@ -1,0 +1,4 @@
+Error clicking element-undefined: Error: locator.click: Test ended.
+Call log:
+  - waiting for locator('.btn btn-default check_out')
+

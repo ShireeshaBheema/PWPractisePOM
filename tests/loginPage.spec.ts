@@ -1,15 +1,14 @@
-import {test,expect} from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
+import {test, expect} from '../fixtures/customFixture';
 import { DataProvider } from '../utils/dataProvider';
+import { BasePage } from '../pages/basePage';
 
 //json data
 const testdata = DataProvider.getTestDataFromJSON('./testdata/data.json');
 for(const data of testdata){
 
-    test(`Login Test for ${data.user_id} user with Json data`, async({page})=>{
+    test(`Login Test for ${data.user_id} user with Json data`, async({page,loginPage,basePage})=>{
 
-        await page.goto('https://automationexercise.com/');
-        const loginPage = new LoginPage(page);
+        await basePage.navigateToBaseURL('https://automationexercise.com/');
         await loginPage.clickLoginLink();
         await loginPage.PerformLogin(data.email,data.password);
 
@@ -18,8 +17,7 @@ for(const data of testdata){
         }
         else{
             await expect(page.locator('a:has-text(" Logged in as ")')).toBeVisible();
-        }
-        
+        }      
         
     })
 }
@@ -28,10 +26,10 @@ for(const data of testdata){
 const csvtestdata = DataProvider.getTestDataFromCSV('./testdata/data.csv');
 for(const data of csvtestdata){
 
-    test(`Login Test for ${data.user_id} user with CSV data`, async({page})=>{
+    test(`Login Test for ${data.user_id} user with CSV data`, async({page,loginPage,basePage})=>{
 
-        await page.goto('https://automationexercise.com/');
-        const loginPage = new LoginPage(page);
+        await basePage.navigateToBaseURL('https://automationexercise.com/');
+        
         await loginPage.clickLoginLink();
         await loginPage.PerformLogin(data.email,data.password);
 
@@ -41,7 +39,12 @@ for(const data of csvtestdata){
         else{
             await expect(page.locator('a:has-text(" Logged in as ")')).toBeVisible();
         }
-        
-        
     })
 }
+
+//login with credentials
+test('Login Test with valid credentials', async({page,loginPage})=>{
+
+    await loginPage.navigateToBaseURL('https://automationexercise.com/');
+    await loginPage.LoginToApplication();
+})

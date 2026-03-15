@@ -1,0 +1,179 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23] [cursor=pointer]:
+            - /url: /logout
+            - generic [ref=e24]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26] [cursor=pointer]:
+            - /url: /delete_account
+            - generic [ref=e27]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e30]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e33]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e39]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as Test
+  - generic [ref=e45]:
+    - generic [ref=e47]:
+      - heading "Category" [level=2] [ref=e48]
+      - generic [ref=e49]:
+        - heading " Women" [level=4] [ref=e52]:
+          - link " Women" [ref=e53] [cursor=pointer]:
+            - /url: "#Women"
+            - generic [ref=e55]: 
+            - text: Women
+        - heading " Men" [level=4] [ref=e58]:
+          - link " Men" [ref=e59] [cursor=pointer]:
+            - /url: "#Men"
+            - generic [ref=e61]: 
+            - text: Men
+        - heading " Kids" [level=4] [ref=e64]:
+          - link " Kids" [ref=e65] [cursor=pointer]:
+            - /url: "#Kids"
+            - generic [ref=e67]: 
+            - text: Kids
+      - generic [ref=e68]:
+        - heading "Brands" [level=2] [ref=e69]
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "(6) Polo" [ref=e73] [cursor=pointer]:
+              - /url: /brand_products/Polo
+              - generic [ref=e74]: (6)
+              - text: Polo
+          - listitem [ref=e75]:
+            - link "(5) H&M" [ref=e76] [cursor=pointer]:
+              - /url: /brand_products/H&M
+              - generic [ref=e77]: (5)
+              - text: H&M
+          - listitem [ref=e78]:
+            - link "(5) Madame" [ref=e79] [cursor=pointer]:
+              - /url: /brand_products/Madame
+              - generic [ref=e80]: (5)
+              - text: Madame
+          - listitem [ref=e81]:
+            - link "(3) Mast & Harbour" [ref=e82] [cursor=pointer]:
+              - /url: /brand_products/Mast & Harbour
+              - generic [ref=e83]: (3)
+              - text: Mast & Harbour
+          - listitem [ref=e84]:
+            - link "(4) Babyhug" [ref=e85] [cursor=pointer]:
+              - /url: /brand_products/Babyhug
+              - generic [ref=e86]: (4)
+              - text: Babyhug
+          - listitem [ref=e87]:
+            - link "(3) Allen Solly Junior" [ref=e88] [cursor=pointer]:
+              - /url: /brand_products/Allen Solly Junior
+              - generic [ref=e89]: (3)
+              - text: Allen Solly Junior
+          - listitem [ref=e90]:
+            - link "(3) Kookie Kids" [ref=e91] [cursor=pointer]:
+              - /url: /brand_products/Kookie Kids
+              - generic [ref=e92]: (3)
+              - text: Kookie Kids
+          - listitem [ref=e93]:
+            - link "(5) Biba" [ref=e94] [cursor=pointer]:
+              - /url: /brand_products/Biba
+              - generic [ref=e95]: (5)
+              - text: Biba
+    - generic [ref=e96]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e102]: 
+          - heading "Added!" [level=4] [ref=e103]
+        - generic [ref=e104]:
+          - paragraph [ref=e105]: Your product has been added to cart.
+          - paragraph [ref=e106]:
+            - link "View Cart" [ref=e107] [cursor=pointer]:
+              - /url: /view_cart
+        - button "Continue Shopping" [ref=e109] [cursor=pointer]
+      - generic [ref=e110]:
+        - img "ecommerce website products" [ref=e113]
+        - generic [ref=e115]:
+          - img "ecommerce website products" [ref=e116]
+          - heading "Sleeveless Dress" [level=2] [ref=e117]
+          - paragraph [ref=e118]: "Category: Women > Dress"
+          - img "ecommerce website products" [ref=e119]
+          - generic [ref=e120]:
+            - generic [ref=e121]: Rs. 1000
+            - generic [ref=e122]: "Quantity:"
+            - spinbutton [ref=e123]: "2"
+            - button " Add to cart" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: 
+              - text: Add to cart
+          - paragraph [ref=e126]: "Availability: In Stock"
+          - paragraph [ref=e127]: "Condition: New"
+          - paragraph [ref=e128]: "Brand: Madame"
+      - generic [ref=e129]:
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - link "Write Your Review" [ref=e133]:
+              - /url: "#reviews"
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - textbox "Your Name" [ref=e137]
+            - textbox "Email Address" [ref=e138]
+          - textbox "Add Review Here!" [ref=e139]
+          - button "Submit" [active] [ref=e140] [cursor=pointer]
+  - contentinfo [ref=e141]:
+    - generic [ref=e146]:
+      - heading "Subscription" [level=2] [ref=e147]
+      - generic [ref=e148]:
+        - textbox "Your email address" [ref=e149]
+        - button "" [ref=e150] [cursor=pointer]:
+          - generic [ref=e151]: 
+        - paragraph [ref=e152]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e156]: Copyright © 2021 All rights reserved
+  - link "" [ref=e157] [cursor=pointer]:
+    - /url: "#top"
+    - generic [ref=e158]: 
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+```

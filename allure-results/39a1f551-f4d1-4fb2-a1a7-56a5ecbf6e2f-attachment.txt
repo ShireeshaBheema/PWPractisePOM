@@ -1,0 +1,3 @@
+Randomly selected product: Soft Stretch Jeans
+Price of the selected product: Rs. 799
+Randomly selected product at index 25 and navigated to its detail page

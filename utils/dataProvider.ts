@@ -1,5 +1,5 @@
 import fs from 'fs';
-import {parse} from 'csv-parse/sync';
+import { parse } from 'csv-parse/sync';
 
 export class DataProvider{
     static getTestDataFromJSON(filePath:string){

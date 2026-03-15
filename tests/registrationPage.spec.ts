@@ -1,18 +1,12 @@
-import {test,expect} from '@playwright/test';
-import { RegistrationPage } from '../pages/RegistrationPage';
+import {test,expect} from '../fixtures/customFixture';
+import { BasePage } from '../pages/basePage';
 
-test('SignUp/Registration',async({page})=>{
+test('SignUp/Registration',async({page,basePage,registrationPage})=>{
     
-    await page.goto('https://automationexercise.com/',{
-        waitUntil:'domcontentloaded',
-        timeout:90000
-    });
+    await basePage.navigateToBaseURL('https://automationexercise.com/');
     
-
-    const registrationPage = new RegistrationPage(page);
-
-    await registrationPage.clickSignUpLink();
-    await registrationPage.enterSignUpDetails('User1','testingusername2@gmail.com');
+    await basePage.clickRegistrationPageLink();
+    await registrationPage.enterSignUpDetails('User1','testingusername3@gmail.com');
 
     await expect(page.locator('h2:has-text("Enter Account Information")')).toBeVisible();
 
@@ -21,8 +15,5 @@ test('SignUp/Registration',async({page})=>{
     await registrationPage.clickCreateAccountButton();
 
     await expect(page.locator('h2:has-text("Account Created!")')).toBeVisible();
-
-
-
 
 })

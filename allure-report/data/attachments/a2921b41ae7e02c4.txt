@@ -1,0 +1,10 @@
+Error clicking element-Clicking Pay Button: Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('button[data-qa="pay-button"]')
+    - locator resolved to <button id="submit" type="submit" data-qa="pay-button" class="form-control btn btn-primary submit-button">Pay and Confirm Order</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+

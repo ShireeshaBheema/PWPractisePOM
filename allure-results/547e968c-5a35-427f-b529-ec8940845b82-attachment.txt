@@ -1,0 +1,52 @@
+
+<--- Last few GCs --->
+
+[11032:0000024799DA7000]     1189 ms: Scavenge (interleaved) 44.6 (61.9) -> 40.6 (103.9) MB, pooled: 0 MB, 20.82 / 0.00 ms  (average mu = 0.985, current mu = 0.985) allocation failure; 
+[11032:0000024799DA7000]     3443 ms: Mark-Compact 59.9 (107.6) -> 40.3 (109.9) MB, pooled: 0 MB, 26.24 / 0.03 ms  (+ 0.2 ms in 3 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 1240 ms) (average mu = 0.990, current mu =
+
+<--- Last few GCs --->
+
+[11032:0000024799DA7000]     1189 ms: Scavenge (interleaved) 44.6 (61.9) -> 40.6 (103.9) MB, pooled: 0 MB, 20.82 / 0.00 ms  (average mu = 0.985, current mu = 0.985) allocation failure; 
+[11032:0000024799DA7000]     3443 ms: Mark-Compact 59.9 (107.6) -> 40.3 (109.9) MB, pooled: 0 MB, 26.24 / 0.03 ms  (+ 0.2 ms in 3 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 1240 ms) (average mu = 0.990, current mu =
+
+<--- Last few GCs --->
+
+[11032:0000024799DA7000]     1189 ms: Scavenge (interleaved) 44.6 (61.9) -> 40.6 (103.9) MB, pooled: 0 MB, 20.82 / 0.00 ms  (average mu = 0.985, current mu = 0.985) allocation failure; 
+[11032:0000024799DA7000]     3443 ms: Mark-Compact 59.9 (107.6) -> 40.3 (109.9) MB, pooled: 0 MB, 26.24 / 0.03 ms  (+ 0.2 ms in 3 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 1240 ms) (average mu = 0.990, current mu =
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+----- Native stack trace -----
+
+----- Native stack trace -----
+
+ 1: 00007FF65A2BAD5F 
+ 2: 00007FF65AF032D7 
+ 3: 00007FF65AD03997 
+ 4: 00007FF65ACE32AE 
+ 5: 00007FF65ACD896D 
+ 6: 00007FF65ACD861C 
+ 7: 00007FF65ACD8261 
+ 8: 00007FF65ACEA758 
+ 9: 00007FF65B6D593F 
+10: 00007FF65A20ADCE 
+11: 00007FF65AF58646 
+12: 00007FF65C199FB3 
+13: 00007FFFE553E8D7 
+14: 00007FFFE64CC48C 
+ 1: 00007FF65A2BAD5F 
+ 2: 00007FF65AF032D7 
+ 3: 00007FF65AD03997 
+ 4: 00007FF65ACE32AE 
+ 5: 00007FF65ACD896D 
+ 6: 00007FF65ACD861C 
+ 7: 00007FF65ACD8261 
+ 8: 00007FF65ACEA758 
+ 9: 00007FF65B6D593F 
+10: 00007FF65A20ADCE 
+11: 00007FF65AF58646 
+12: 00007FF65C199FB3 
+13: 00007FFFE553E8D7 
+14: 00007FFFE64CC48C 

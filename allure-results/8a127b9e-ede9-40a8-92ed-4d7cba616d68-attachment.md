@@ -1,0 +1,215 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23] [cursor=pointer]:
+            - /url: /logout
+            - generic [ref=e24]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26] [cursor=pointer]:
+            - /url: /delete_account
+            - generic [ref=e27]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e30]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e33]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e39]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as Test
+  - generic [ref=e44]:
+    - list [ref=e46]:
+      - listitem [ref=e47]:
+        - link "Home" [ref=e48] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e49]: Shopping Cart
+    - generic [ref=e54] [cursor=pointer]: Proceed To Checkout
+    - table [ref=e56]:
+      - rowgroup [ref=e57]:
+        - row "Item Description Price Quantity Total" [ref=e58]:
+          - cell "Item" [ref=e59]
+          - cell "Description" [ref=e60]
+          - cell "Price" [ref=e61]
+          - cell "Quantity" [ref=e62]
+          - cell "Total" [ref=e63]
+          - cell [ref=e64]
+      - rowgroup [ref=e65]:
+        - row "Product Image Winter Top Women > Tops Rs. 600 1 Rs. 600 " [ref=e66]:
+          - cell "Product Image" [ref=e67]:
+            - link "Product Image" [ref=e68] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e69]
+          - cell "Winter Top Women > Tops" [ref=e70]:
+            - heading "Winter Top" [level=4] [ref=e71]:
+              - link "Winter Top" [ref=e72] [cursor=pointer]:
+                - /url: /product_details/5
+            - paragraph [ref=e73]: Women > Tops
+          - cell "Rs. 600" [ref=e74]:
+            - paragraph [ref=e75]: Rs. 600
+          - cell "1" [ref=e76]:
+            - button "1" [ref=e77] [cursor=pointer]
+          - cell "Rs. 600" [ref=e78]:
+            - paragraph [ref=e79]: Rs. 600
+          - cell "" [ref=e80]:
+            - generic [ref=e82] [cursor=pointer]: 
+        - row "Product Image Cotton Mull Embroidered Dress Kids > Dress Rs. 1190 1 Rs. 1190 " [ref=e83]:
+          - cell "Product Image" [ref=e84]:
+            - link "Product Image" [ref=e85] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e86]
+          - cell "Cotton Mull Embroidered Dress Kids > Dress" [ref=e87]:
+            - heading "Cotton Mull Embroidered Dress" [level=4] [ref=e88]:
+              - link "Cotton Mull Embroidered Dress" [ref=e89] [cursor=pointer]:
+                - /url: /product_details/20
+            - paragraph [ref=e90]: Kids > Dress
+          - cell "Rs. 1190" [ref=e91]:
+            - paragraph [ref=e92]: Rs. 1190
+          - cell "1" [ref=e93]:
+            - button "1" [ref=e94] [cursor=pointer]
+          - cell "Rs. 1190" [ref=e95]:
+            - paragraph [ref=e96]: Rs. 1190
+          - cell "" [ref=e97]:
+            - generic [ref=e99] [cursor=pointer]: 
+        - row "Product Image Pure Cotton Neon Green Tshirt Men > Tshirts Rs. 850 1 Rs. 850 " [ref=e100]:
+          - cell "Product Image" [ref=e101]:
+            - link "Product Image" [ref=e102] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e103]
+          - cell "Pure Cotton Neon Green Tshirt Men > Tshirts" [ref=e104]:
+            - heading "Pure Cotton Neon Green Tshirt" [level=4] [ref=e105]:
+              - link "Pure Cotton Neon Green Tshirt" [ref=e106] [cursor=pointer]:
+                - /url: /product_details/31
+            - paragraph [ref=e107]: Men > Tshirts
+          - cell "Rs. 850" [ref=e108]:
+            - paragraph [ref=e109]: Rs. 850
+          - cell "1" [ref=e110]:
+            - button "1" [ref=e111] [cursor=pointer]
+          - cell "Rs. 850" [ref=e112]:
+            - paragraph [ref=e113]: Rs. 850
+          - cell "" [ref=e114]:
+            - generic [ref=e116] [cursor=pointer]: 
+        - row "Product Image Frozen Tops For Kids Kids > Tops & Shirts Rs. 278 1 Rs. 278 " [ref=e117]:
+          - cell "Product Image" [ref=e118]:
+            - link "Product Image" [ref=e119] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e120]
+          - cell "Frozen Tops For Kids Kids > Tops & Shirts" [ref=e121]:
+            - heading "Frozen Tops For Kids" [level=4] [ref=e122]:
+              - link "Frozen Tops For Kids" [ref=e123] [cursor=pointer]:
+                - /url: /product_details/13
+            - paragraph [ref=e124]: Kids > Tops & Shirts
+          - cell "Rs. 278" [ref=e125]:
+            - paragraph [ref=e126]: Rs. 278
+          - cell "1" [ref=e127]:
+            - button "1" [ref=e128] [cursor=pointer]
+          - cell "Rs. 278" [ref=e129]:
+            - paragraph [ref=e130]: Rs. 278
+          - cell "" [ref=e131]:
+            - generic [ref=e133] [cursor=pointer]: 
+        - row "Product Image Sleeveless Unicorn Patch Gown - Pink Kids > Dress Rs. 1050 1 Rs. 1050 " [ref=e134]:
+          - cell "Product Image" [ref=e135]:
+            - link "Product Image" [ref=e136] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e137]
+          - cell "Sleeveless Unicorn Patch Gown - Pink Kids > Dress" [ref=e138]:
+            - heading "Sleeveless Unicorn Patch Gown - Pink" [level=4] [ref=e139]:
+              - link "Sleeveless Unicorn Patch Gown - Pink" [ref=e140] [cursor=pointer]:
+                - /url: /product_details/19
+            - paragraph [ref=e141]: Kids > Dress
+          - cell "Rs. 1050" [ref=e142]:
+            - paragraph [ref=e143]: Rs. 1050
+          - cell "1" [ref=e144]:
+            - button "1" [ref=e145] [cursor=pointer]
+          - cell "Rs. 1050" [ref=e146]:
+            - paragraph [ref=e147]: Rs. 1050
+          - cell "" [ref=e148]:
+            - generic [ref=e150] [cursor=pointer]: 
+        - row "Product Image Long Maxi Tulle Fancy Dress Up Outfits -Pink Kids > Dress Rs. 1600 1 Rs. 1600 " [ref=e151]:
+          - cell "Product Image" [ref=e152]:
+            - link "Product Image" [ref=e153] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e154]
+          - cell "Long Maxi Tulle Fancy Dress Up Outfits -Pink Kids > Dress" [ref=e155]:
+            - heading "Long Maxi Tulle Fancy Dress Up Outfits -Pink" [level=4] [ref=e156]:
+              - link "Long Maxi Tulle Fancy Dress Up Outfits -Pink" [ref=e157] [cursor=pointer]:
+                - /url: /product_details/22
+            - paragraph [ref=e158]: Kids > Dress
+          - cell "Rs. 1600" [ref=e159]:
+            - paragraph [ref=e160]: Rs. 1600
+          - cell "1" [ref=e161]:
+            - button "1" [ref=e162] [cursor=pointer]
+          - cell "Rs. 1600" [ref=e163]:
+            - paragraph [ref=e164]: Rs. 1600
+          - cell "" [ref=e165]:
+            - generic [ref=e167] [cursor=pointer]: 
+        - row "Product Image Beautiful Peacock Blue Cotton Linen Saree Women > Saree Rs. 5000 1 Rs. 5000 " [ref=e168]:
+          - cell "Product Image" [ref=e169]:
+            - link "Product Image" [ref=e170] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e171]
+          - cell "Beautiful Peacock Blue Cotton Linen Saree Women > Saree" [ref=e172]:
+            - heading "Beautiful Peacock Blue Cotton Linen Saree" [level=4] [ref=e173]:
+              - link "Beautiful Peacock Blue Cotton Linen Saree" [ref=e174] [cursor=pointer]:
+                - /url: /product_details/41
+            - paragraph [ref=e175]: Women > Saree
+          - cell "Rs. 5000" [ref=e176]:
+            - paragraph [ref=e177]: Rs. 5000
+          - cell "1" [ref=e178]:
+            - button "1" [ref=e179] [cursor=pointer]
+          - cell "Rs. 5000" [ref=e180]:
+            - paragraph [ref=e181]: Rs. 5000
+          - cell "" [ref=e182]:
+            - generic [ref=e184] [cursor=pointer]: 
+  - contentinfo [ref=e185]:
+    - generic [ref=e190]:
+      - heading "Subscription" [level=2] [ref=e191]
+      - generic [ref=e192]:
+        - textbox "Your email address" [ref=e193]
+        - button "" [ref=e194] [cursor=pointer]:
+          - generic [ref=e195]: 
+        - paragraph [ref=e196]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e200]: Copyright © 2021 All rights reserved
+  - text: 
+```
